@@ -1,1 +1,8 @@
+server:
+  port: 80
 
+  tomcat:
+    threads:
+      # \uC2A4\uD504\uC789 \uBD80\uD2B8 \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC758 \uD1B0\uCEA3 \uC6CC\uCEE4 \uC2A4\uB808\uB4DC \uD480 \uCD5C\uB313\uAC12 \uBC0F \uCD5C\uC19F\uAC12 \uC124\uC815
+      max: 100        # 200 -> 100
+      min-spare: 100  #  10 -> 100
